@@ -1,0 +1,22 @@
+{
+  "name": "rabbitmq_example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:send": "node -r esm ./src/send.js",
+    "start:receive": "node -r esm ./src/receive.js",
+    "start:publish": "node -r esm ./src/publish.js",
+    "start:subscribe": "node -r esm ./src/subscribe.js",
+    "start:call": "node -r esm ./src/call.js",
+    "start:replay": "node -r esm ./src/replay.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "esm": "^3.2.25",
+    "uuid": "^3.3.3"
+  }
+}
